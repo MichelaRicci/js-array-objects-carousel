@@ -1,9 +1,15 @@
 #carousel {
     height: 400px;
     width: 1000px;
-
-    position: relative;
 }
+
+#gallery {
+    position: relative;
+
+    height: 400px;
+    width: 1000px;
+}
+
 
 img {
     width: 100%;
@@ -12,6 +18,11 @@ img {
     object-fit: cover;
 
     display: none;
+
+    border-radius: 20px;
+
+
+    position: relative;
 }
 
 img.active {
@@ -24,24 +35,36 @@ img.active {
 
 .fa-solid{
     position: absolute;
-
     cursor: pointer;
+
+
+    background-color: rgba(0, 0, 0, 0.183);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
 }
 
-#prev {
-   top: 10px;
 
+#prev {
+    top: 30%;
+ 
 }
 
 #next {
-   bottom: 10px;
-
+    bottom: 55%;
 }
+
 
 /* Text */
 
 .text {
     display: none;
+
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(151, 149, 149);
 
 
 

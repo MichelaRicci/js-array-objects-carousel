@@ -53,8 +53,8 @@ for (let i = 0; i < data.length; i++) {
   card += `${image}
   
       <div class="text">
-        <h1>"${data[i].title}"</h1>
-        <h3>"${data[i].text}"</h3>
+        <h2>"${data[i].title}"</h2>
+        <h5>"${data[i].text}"</h5>
       </div>`;
 }
 
